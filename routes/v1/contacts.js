@@ -7,7 +7,7 @@ const url = require('url');
 const express = require('express');
 const router = express.Router();
 
-const contacts = require('../controllers/contacts');
+const contacts = require('../../controllers/contacts');
 
 /* GET contacts listing. */
 router.get('/', function(req, res) {
